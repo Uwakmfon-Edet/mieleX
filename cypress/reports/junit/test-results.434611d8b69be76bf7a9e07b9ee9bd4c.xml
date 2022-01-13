@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2021-08-09T08:55:40" tests="0" file="cypress/integration/Web Projects/PasswordReset.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Reset Password" timestamp="2021-08-09T08:55:40" tests="2" time="0.0000" failures="2">
+    <testcase name="Reset Password Initiate Password Reset" time="0.0000" classname="Initiate Password Reset">
+      <failure message="Timed out retrying after 70000ms: Expected to find element: `.table-status`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 70000ms: Expected to find element: `.table-status`, but never found it.
+    at Function.confirmUserDetails (https://onepass-backoffice.netlify.app/__cypress/tests?p=cypress\integration\Web%20Projects\PasswordReset.feature:137:34)
+    at Context.eval (https://onepass-backoffice.netlify.app/__cypress/tests?p=cypress\integration\Web%20Projects\PasswordReset.feature:61:39)
+    at Context.resolveAndRunStepDefinition (https://onepass-backoffice.netlify.app/__cypress/tests?p=cypress\integration\Web%20Projects\PasswordReset.feature:10774:9)
+    at Context.eval (https://onepass-backoffice.netlify.app/__cypress/tests?p=cypress\integration\Web%20Projects\PasswordReset.feature:10103:35)]]></failure>
+    </testcase>
+    <testcase name="Reset Password Approve Password Reset" time="0.0000" classname="Approve Password Reset">
+      <failure message="Timed out retrying after 70050ms: `cy.click()` failed because this element:
+
+          `&lt;div class=&quot;sc-fFubgz eNVNAZ&quot;&gt;...&lt;/div&gt;`
+
+          has CSS `pointer-events: none`, inherited from this element:
+
+`&lt;td class=&quot;disabled-btn&quot;&gt;...&lt;/td&gt;`
+
+          `pointer-events: none` prevents user mouse interaction.
+
+          Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 70050ms: `cy.click()` failed because this element:
+
+          `<div class="sc-fFubgz eNVNAZ">...</div>`
+
+          has CSS `pointer-events: none`, inherited from this element:
+
+`<td class="disabled-btn">...</td>`
+
+          `pointer-events: none` prevents user mouse interaction.
+
+          Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureElDoesNotHaveCSS (https://onepass-backoffice.netlify.app/__cypress/runner/cypress_runner.js:148535:24)
+    at ensureDescendents (https://onepass-backoffice.netlify.app/__cypress/runner/cypress_runner.js:135784:8)
+    at ensureDescendentsAndScroll (https://onepass-backoffice.netlify.app/__cypress/runner/cypress_runner.js:135793:14)
+    at ensureElIsNotCovered (https://onepass-backoffice.netlify.app/__cypress/runner/cypress_runner.js:135927:5)
+    at runAllChecks (https://onepass-backoffice.netlify.app/__cypress/runner/cypress_runner.js:136114:52)
+    at retryActionability (https://onepass-backoffice.netlify.app/__cypress/runner/cypress_runner.js:136137:16)
+    at tryCatcher (https://onepass-backoffice.netlify.app/__cypress/runner/cypress_runner.js:13212:23)
+    at Function.Promise.attempt.Promise.try (https://onepass-backoffice.netlify.app/__cypress/runner/cypress_runner.js:10486:29)
+    at tryFn (https://onepass-backoffice.netlify.app/__cypress/runner/cypress_runner.js:153198:21)
+    at whenStable (https://onepass-backoffice.netlify.app/__cypress/runner/cypress_runner.js:153236:12)
+    at https://onepass-backoffice.netlify.app/__cypress/runner/cypress_runner.js:152728:16
+    at tryCatcher (https://onepass-backoffice.netlify.app/__cypress/runner/cypress_runner.js:13212:23)
+    at Promise._settlePromiseFromHandler (https://onepass-backoffice.netlify.app/__cypress/runner/cypress_runner.js:11147:31)
+    at Promise._settlePromise (https://onepass-backoffice.netlify.app/__cypress/runner/cypress_runner.js:11204:18)
+    at Promise._settlePromise0 (https://onepass-backoffice.netlify.app/__cypress/runner/cypress_runner.js:11249:10)
+    at Promise._settlePromises (https://onepass-backoffice.netlify.app/__cypress/runner/cypress_runner.js:11329:18)
+From Your Spec Code:
+    at Function.clickMore (https://onepass-backoffice.netlify.app/__cypress/tests?p=cypress\integration\Web%20Projects\PasswordReset.feature:223:25)
+    at Context.eval (https://onepass-backoffice.netlify.app/__cypress/tests?p=cypress\integration\Web%20Projects\PasswordReset.feature:83:37)
+    at Context.resolveAndRunStepDefinition (https://onepass-backoffice.netlify.app/__cypress/tests?p=cypress\integration\Web%20Projects\PasswordReset.feature:10774:9)
+    at Context.eval (https://onepass-backoffice.netlify.app/__cypress/tests?p=cypress\integration\Web%20Projects\PasswordReset.feature:10103:35)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

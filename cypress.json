@@ -1,0 +1,13 @@
+{
+  "defaultCommandTimeout": 70000,
+  "execTimeout": 60000,
+  "pageLoadTimeout": 100000,
+  "viewportWidth": 1920,
+  "viewportHeight": 1000,
+  "testFiles": "**/*.{feature,features}",
+  "videoUploadOnPasses":false,
+  "reporter": "mocha-junit-reporter",
+     "reporterOptions": {
+        "mochaFile": "cypress/reports/junit/test-results.[hash].xml",
+         "testsuitesTitle": false}
+}

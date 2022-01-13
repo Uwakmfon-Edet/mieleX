@@ -1,0 +1,26 @@
+{
+  "name": "miele-x-assessment",
+  "version": "1.0.0",
+  "description": "MieleX Technical Interview Assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:verify": "cypress verify",
+    "cy:version": "cypress version",
+    "cy:run": "cypress run",
+    "cy:run:record": "cypress run --record",
+    "cy:open": "cypress open"
+  },
+  "author": "SUwakmfon Edet",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.2.0",
+    "cypress-cucumber-preprocessor": "^4.1.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "cypress-pipe": "^2.0.0",
+    "mocha-junit-reporter": "^2.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

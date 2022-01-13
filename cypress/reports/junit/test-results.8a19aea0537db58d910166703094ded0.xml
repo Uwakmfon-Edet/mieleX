@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="41.1260" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-08-09T08:54:38" tests="0" file="cypress/integration/Web Projects/login.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Login to SSO Admin portal" timestamp="2021-08-09T08:54:38" tests="2" time="41.1260" failures="0">
+    <testcase name="Login to SSO Admin portal Login to Admin portal as a Maker" time="22.2040" classname="Login to Admin portal as a Maker">
+    </testcase>
+    <testcase name="Login to SSO Admin portal Login to Admin portal as a Checker" time="18.9220" classname="Login to Admin portal as a Checker">
+    </testcase>
+  </testsuite>
+</testsuites>
