@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="65.7860" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-01-17T21:01:58" tests="0" file="cypress/integration/mieleX/admin_product.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Add product" timestamp="2022-01-17T21:01:58" tests="5" time="65.7090" failures="0">
+    <testcase name="Add product Navigate to the admin Home page" time="3.6010" classname="Navigate to the admin Home page">
+    </testcase>
+    <testcase name="Add product Login with admin credentials" time="53.4630" classname="Login with admin credentials">
+    </testcase>
+    <testcase name="Add product Select Catalog to add product" time="0.0820" classname="Select Catalog to add product">
+    </testcase>
+    <testcase name="Add product Enter product details and submit" time="0.0140" classname="Enter product details and submit">
+    </testcase>
+    <testcase name="Add product Product should be added successfully" time="0.0090" classname="Product should be added successfully">
+    </testcase>
+  </testsuite>
+</testsuites>

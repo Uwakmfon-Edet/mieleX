@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="224.3450" tests="4" failures="3">
+  <testsuite name="Root Suite" timestamp="2022-01-17T21:05:05" tests="0" file="cypress/integration/mieleX/orders_e2e.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Orders end-to-end testing" timestamp="2022-01-17T21:05:05" tests="4" time="224.3030" failures="3">
+    <testcase name="Orders end-to-end testing Navigate to the home page" time="4.7430" classname="Navigate to the home page">
+    </testcase>
+    <testcase name="Orders end-to-end testing Select the product to purchase - Gift Card" time="0.0000" classname="Select the product to purchase - Gift Card">
+      <failure message="Timed out retrying after 70000ms: Expected to find element: `iframe`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 70000ms: Expected to find element: `iframe`, but never found it.
+    at Context.frameLoaded (https://admin-demo.nopcommerce.com/__cypress/tests?p=cypress/integration/mieleX/orders_e2e.js:110:15)]]></failure>
+    </testcase>
+    <testcase name="Orders end-to-end testing Input recipeint parameters" time="0.0000" classname="Input recipeint parameters">
+      <failure message="Timed out retrying after 70000ms: Expected to find element: `iframe`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 70000ms: Expected to find element: `iframe`, but never found it.
+    at Context.frameLoaded (https://admin-demo.nopcommerce.com/__cypress/tests?p=cypress/integration/mieleX/orders_e2e.js:110:15)]]></failure>
+    </testcase>
+    <testcase name="Orders end-to-end testing Go to shopping cart" time="0.0000" classname="Go to shopping cart">
+      <failure message="Timed out retrying after 70000ms: Expected to find element: `iframe`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 70000ms: Expected to find element: `iframe`, but never found it.
+    at Context.frameLoaded (https://admin-demo.nopcommerce.com/__cypress/tests?p=cypress/integration/mieleX/orders_e2e.js:110:15)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
