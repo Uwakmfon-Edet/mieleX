@@ -1,10 +1,10 @@
 {
   "defaultCommandTimeout": 70000,
   "execTimeout": 60000,
-  "pageLoadTimeout": 100000,
+  "pageLoadTimeout": 1000000,
   "viewportWidth": 1920,
   "viewportHeight": 1000,
-  "testFiles": "**/*.{feature,features}",
+  "chromeWebSecurity": false,
   "videoUploadOnPasses":false,
   "reporter": "mocha-junit-reporter",
      "reporterOptions": {

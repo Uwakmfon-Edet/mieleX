@@ -15,6 +15,7 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+require('cypress-xpath')
 
 Cypress.on('uncaught:exception', (err, runnable) => {
    // This will handle app related JQuery errors
@@ -22,3 +23,15 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+Cypress.Commands.add('getIframeBody', () => {
+    // get the iframe > document > body
+    // and retry until the body element is not empty
+    return cy
+    .get('iframe')
+    .its('0.contentDocument.body').should('not.be.empty')
+    // wraps "body" DOM element to allow
+    // chaining more Cypress commands, like ".find(...)"
+    // https://on.cypress.io/wrap
+    .then(cy.wrap)
+  })
