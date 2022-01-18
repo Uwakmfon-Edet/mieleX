@@ -1,7 +1,7 @@
 import { Given, And, Then, When } from "cypress-cucumber-preprocessor/steps";
 import ordersPage from "../orders/ordersPage";
 
-Given("I ma on the nopCommerce home page", () => {
+Given("I am on the nopCommerce home page", () => {
     ordersPage.loadURL()
 })
 When("I log in successfully", () => {
